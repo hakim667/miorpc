@@ -57,7 +57,7 @@ const Page = () => {
           <div className=" max-h-[90%] w-full flex flex-col">
             <div className=" w-full h-full flex flex-col border border-black">
               <div className=" flex flex-row p-1 bg-white font-bold text-base justify-around">
-                <p className=" w-[23%] text-center">Utilisateurr</p>
+                <p className=" w-[23%] text-center">Utilisateur</p>
                 <div className=" w-[1px] h-full bg-black"></div>
                 <p className=" w-[23%] text-center"> Code référence</p>
                 <div className=" w-[1px] h-full bg-black"></div>
