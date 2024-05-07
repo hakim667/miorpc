@@ -1,0 +1,78 @@
+[debug] [2024-05-07T17:06:21.207Z] ----------------------------------------------------------------------
+[debug] [2024-05-07T17:06:21.219Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo-U\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-07T17:06:21.221Z] CLI Version:   13.8.0
+[debug] [2024-05-07T17:06:21.221Z] Platform:      win32
+[debug] [2024-05-07T17:06:21.222Z] Node Version:  v22.1.0
+[debug] [2024-05-07T17:06:21.223Z] Time:          Tue May 07 2024 18:06:21 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2024-05-07T17:06:21.224Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-07T17:06:21.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-07T17:06:21.259Z] > authorizing via signed-in user (ainouz.hakim2004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lenovo-U\Desktop\veredictum
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-07T17:08:33.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-07T17:08:34.558Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-07T17:08:34.558Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mio-rpc (MIO-RPC) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-07T17:08:39.652Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mio-rpc [none]
+[debug] [2024-05-07T17:09:09.788Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/mio-rpc, {"headers":{},"method":"GET","signal":{}}): AbortError: The user aborted a request.
+[debug] [2024-05-07T17:09:09.789Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/mio-rpc (original: The user aborted a request.)
+[debug] [2024-05-07T17:09:09.799Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/mio-rpc
+    at RetryOperation._fn (C:\Users\Lenovo-U\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:255:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project mio-rpc. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-05-07T17:09:31.089Z] ----------------------------------------------------------------------
+[debug] [2024-05-07T17:09:31.098Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo-U\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-07T17:09:31.099Z] CLI Version:   13.8.0
+[debug] [2024-05-07T17:09:31.100Z] Platform:      win32
+[debug] [2024-05-07T17:09:31.100Z] Node Version:  v22.1.0
+[debug] [2024-05-07T17:09:31.101Z] Time:          Tue May 07 2024 18:09:31 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2024-05-07T17:09:31.102Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-07T17:09:31.130Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-07T17:09:31.131Z] > authorizing via signed-in user (ainouz.hakim2004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lenovo-U\Desktop\veredictum
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-07T17:10:10.700Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-07T17:10:40.709Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): AbortError: The user aborted a request.
+[debug] [2024-05-07T17:10:40.713Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2024-05-07T17:10:40.719Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\Lenovo-U\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:255:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
