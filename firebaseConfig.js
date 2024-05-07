@@ -2,13 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCkJlEjYl2Y5z3wQwGNHssMZYM_dee-pxY",
-  authDomain: "veredictum-cc533.firebaseapp.com",
-  projectId: "veredictum-cc533",
-  storageBucket: "veredictum-cc533.appspot.com",
-  messagingSenderId: "243755166594",
-  appId: "1:243755166594:web:0b900de1202ff76c1f3d9b",
-  measurementId: "G-Y1YJB875VT",
+  apiKey: "AIzaSyDOFUlrJEadpsfQCTGyHFoDg7RPfKPGhLA",
+  authDomain: "mio-rpc.firebaseapp.com",
+  projectId: "mio-rpc",
+  storageBucket: "mio-rpc.appspot.com",
+  messagingSenderId: "37985438240",
+  appId: "1:37985438240:web:f089c7ef3851c961ec8a45"
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
