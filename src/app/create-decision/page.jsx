@@ -51,7 +51,7 @@ const Page = () => {
         <div className=" w-[95%] flex flex-col gap-4 items-center">
           <h1 className=" text-2xl font-bold">Créer décision</h1>
           <Input
-            placeholder="Code lassification"
+            placeholder="Code classification"
             value={classificationCode}
             setValue={setClassificationCode}
           />
